@@ -21,7 +21,7 @@ Sweep the streets I used to own</i></p>
 
 
 ---
-####此处沿用reuixiy的描述。
+此处沿用reuixiy的描述。
 
 此外，本博客是一个 [PWA](https://developers.google.com/web/progressive-web-apps/) 站点，你可以通过浏览器添加本博客到你的手机主屏或电脑桌面，随时随地查看本博客。如果你想订阅本博客，推荐 <a href="/atom.xml" target="_blank" rel="noopener">Atom</a>╱<a href="/rss.xml" target="_blank" rel="noopener">RSS</a>。当然，你也可以经常访问本博客，以及时获取到最新文章。
 
