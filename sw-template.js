@@ -3,7 +3,7 @@ const workboxVersion = '5.0.0';
 importScripts(`https://storage.googleapis.com/workbox-cdn/releases/${workboxVersion}/workbox-sw.js`);
 
 workbox.core.setCacheNameDetails({
-    prefix: "reuixiy"
+    prefix: "cook"
 });
 
 workbox.core.skipWaiting();
