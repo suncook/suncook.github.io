@@ -1,4 +1,4 @@
-# C
+# Cook
 
 [![Generator is Hugo](https://img.shields.io/badge/Generator%20is-Hugo-ff4088?&logo=hugo)](https://github.com/gohugoio/hugo)
 [![Theme is MemE](https://img.shields.io/badge/Theme%20is-MemE-2a6df4)](https://github.com/reuixiy/hugo-theme-meme)
