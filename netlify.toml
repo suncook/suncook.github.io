@@ -11,6 +11,6 @@
 #   command = "npm run build && npm run ipfs-deploy"
 
 [[redirects]]
-  from = "https://www.suncook.men/*"
-  to = "https://www.suncook.men/:splat"
+  from = "http://suncook.netlify.com/*"
+  to = "http://www.suncook.men/:splat"
   force = true
