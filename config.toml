@@ -1,7 +1,7 @@
 ##########################################
 # 站点配置
 
-baseURL = "https://www.suncook.men/"
+baseURL = "https://suncook.men/"
 title = "Cook"
 languageCode = "zh-CN"
 hasCJKLanguage = true
@@ -100,7 +100,7 @@ uglyURLs = false
     # 头像
     avatar = "/icons/apple-touch-icon.png"
     # 网站（默认值：baseURL）
-    website = "http://www.suncook.men/"
+    website = "https://suncook.men/"
     # 推特
     twitter = "sunqiuming"
 
@@ -399,7 +399,7 @@ uglyURLs = false
     # 说明：用于 JSON-LD、Open Graph
 
     # 站点的描述
-    siteDescription = "这是 reuixiy 的生活与技术博客！怎么记住 reuixiy 呢？其实就是「一休儿」的拼音，只不过顺序是从右往左……"
+    siteDescription = "这是 Cook 个人的一个站点……"
     # 说明：用于 HTML 的头部元数据、JSON-LD、
     #      Open Graph、Atom、RSS
 
@@ -408,7 +408,7 @@ uglyURLs = false
     # 注意：请保持此格式，更改数字
 
     # 站点的推特帐号
-    siteTwitter = "reuixiy"
+    siteTwitter = "sunqiuming"
     # 说明：用于 Twitter Cards
 
 
@@ -1382,7 +1382,7 @@ uglyURLs = false
         identifier = "lang-switcher"
 [languages.en.params]
     homePoetry = ["In the dark night", "Longing for a light of care", "In the daylight", "Desiring for the swallow of a black hole", "’Cause curiosity — seeks for what’s in the darkness"]
-    siteDescription = "Blog of reuixiy in English."
+    siteDescription = "Blog of Cook in English."
     listDateFormat = "January 2"
     postWidth = 32
     fontFamilyTitle = "Amstelvar, serif"
