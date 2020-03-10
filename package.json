@@ -1,5 +1,5 @@
 {
-  "name": "io-oi.me",
+  "name": "suncook",
   "version": "1.0.0",
   "description": "Blog of Mine",
   "main": "index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reuixiy/io-oi.me.git"
+    "url": "git+https://github.com/suncook/suncook.git"
   },
   "keywords": [
     "blog",
@@ -20,9 +20,9 @@
   "author": "reuixiy",
   "license": "CC-BY-NC-SA-4.0",
   "bugs": {
-    "url": "https://github.com/reuixiy/io-oi.me/issues"
+    "url": "https://github.com/suncook/suncook/issues"
   },
-  "homepage": "https://github.com/reuixiy/io-oi.me#readme",
+  "homepage": "https://github.com/suncook/suncook#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-uglify": "^3.0.2",
