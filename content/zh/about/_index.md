@@ -29,6 +29,6 @@ Sweep the streets I used to own</i></p>
 
 ---
 
-在次感谢reuixiy的模板，祝好！
+再次感谢reuixiy的模板，祝好！
 
 
