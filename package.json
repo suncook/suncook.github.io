@@ -1,5 +1,5 @@
 {
-  "name": "suncook",
+  "name": "Cook",
   "version": "1.0.0",
   "description": "Blog of Mine",
   "main": "index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/suncook/suncook.git"
+    "url": "git+https://github.com/suncook/suncook.github.io.git"
   },
   "keywords": [
     "blog",
@@ -20,9 +20,9 @@
   "author": "cook",
   "license": "CC-BY-NC-SA-4.0",
   "bugs": {
-    "url": "https://github.com/suncook/suncook/issues"
+    "url": "https://github.com/suncook/suncook.github.io.git/issues"
   },
-  "homepage": "https://github.com/suncook/suncook#readme",
+  "homepage": "https://github.com/suncook/suncook.github.io.git#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-uglify": "^3.0.2",

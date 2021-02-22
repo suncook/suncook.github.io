@@ -25,7 +25,7 @@ pluralizeListTitles = false
 summaryLength = 42
 
 # 是否开启 GitHub 风格的 Emoji 书写方式
-enableEmoji = false
+enableEmoji = true
 
 # 脚注的返回链接中的文本
 footnoteReturnLinkContents = "↩"
@@ -1087,9 +1087,9 @@ uglyURLs = false
     #      的优先级高于此处
 
     # 仓库地址
-    repoURL = "https://github.com/suncook/suncook"
+    repoURL = "https://github.com/suncook/suncook.github.io.git"
     # 编辑地址
-    repoEditURL = "https://github.com/suncook/suncook/blob/master"
+    repoEditURL = "https://github.com/suncook/suncook.github.io.git/blob/master"
 
     # Git 的图标
     gitIcon = "code-branch"
