@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/suncook/suncook.github.io.git"
+    "url": "git+https://github.com/suncook/suncook.github.io"
   },
   "keywords": [
     "blog",
@@ -20,9 +20,9 @@
   "author": "cook",
   "license": "CC-BY-NC-SA-4.0",
   "bugs": {
-    "url": "https://github.com/suncook/suncook.github.io.git/issues"
+    "url": "https://github.com/suncook/suncook.github.io/issues"
   },
-  "homepage": "https://github.com/suncook/suncook.github.io.git#readme",
+  "homepage": "https://github.com/suncook/suncook.github.io#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-uglify": "^3.0.2",

@@ -1087,9 +1087,9 @@ uglyURLs = false
     #      的优先级高于此处
 
     # 仓库地址
-    repoURL = "https://github.com/suncook/suncook.github.io.git"
+    repoURL = "https://github.com/suncook/suncook.github.io"
     # 编辑地址
-    repoEditURL = "https://github.com/suncook/suncook.github.io.git/blob/master"
+    repoEditURL = "https://github.com/suncook/suncook.github.io/blob/master"
 
     # Git 的图标
     gitIcon = "code-branch"
