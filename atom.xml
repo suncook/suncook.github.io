@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><title type="text">Cook</title><subtitle type="html">这是 Cook 个人的一个站点……</subtitle><updated>2021-05-15T21:28:19+08:00</updated><id>https://suncook.men/</id><link rel="alternate" type="text/html" href="https://suncook.men/"/><link rel="self" type="application/atom+xml" href="https://suncook.men/atom.xml"/><author><name>Cook</name><uri>https://suncook.men/</uri><email>emailcook@163.com</email></author><rights>在保留本文作者及本文链接的前提下，非商业用途随意转载分享。</rights><generator uri="https://gohugo.io/" version="0.83.1">Hugo</generator><entry><title type="text">Hugo 主题 MemE 文档</title><link rel="alternate" type="text/html" href="https://suncook.men/tech/documentation-of-hugo-theme-meme/"/><id>https://suncook.men/tech/documentation-of-hugo-theme-meme/</id><updated>2020-03-04T23:39:51+08:00</updated><published>2019-11-02T10:42:03+08:00</published><author><name>Cook</name><uri>https://suncook.men/</uri><email>emailcook@163.com</email></author><rights>在保留本文作者及本文链接的前提下，非商业用途随意转载分享。</rights><summary type="html">前言 MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。MemE 主题专注于优雅、……</summary><content type="html">&lt;p>&lt;img src="https://raw.githubusercontent.com/reuixiy/hugo-theme-meme/master/images/tn.png" alt="tn.png" title="预览图">&lt;/p>
+&lt;h2 id="前言">前言&lt;/h2>
+&lt;p>&lt;a href="https://github.com/reuixiy/hugo-theme-meme">MemE&lt;/a> 是一个强大且可高度定制的 &lt;a href="https://gohugo.io/">GoHugo&lt;/a> 博客主题，专为个人博客设计。MemE 主题专注于优雅、简约、现代，以及代码的正确性。MemE 主题对习惯了 Hexo 的用户非常友好，是从 Hexo 迁移到 Hugo 的不错选择。&lt;/p>
+&lt;p>为什么要起名为 MemE 呢？这四个字母的含义是基于这个单词本身的，即希望你的博客以及文章能够像&lt;a href="https://t.me/yixiuer/413">模因&lt;/a>一样传播、影响。当然，希望这个主题也是如此，并给你带来欢乐。至于这四个字母的形式（&lt;strong>M&lt;/strong>em&lt;strong>E&lt;/strong>），则是受 Taylor Swift 的 &lt;a href="https://www.youtube.com/watch?v=FuXNumBwDOM">ME!&lt;/a> 中的「you can’t spell “awesome” without “me”」启发。同时，这两个字母的大写就将这个单词分成了两部分——ME 和 em，中间两个字母组成 em，这也给人一种可爱的感觉。此外，em 也是 me 的反写，这又是我非常喜欢的形式！&lt;/p>
+&lt;p>MemE 主题践行极简主义，没有使用现有的流行前端框架，主题的 HTML 和 CSS 皆由我纯手工从零雕琢而成。同时，MemE 的 CSS 也是按需生成的，比如：如果你不需要代码高亮的功能，那么代码高亮的样式就不会被加入 MemE 的 CSS 文件中。更甚，MemE 无需加载任何图标库——主题的图标是通过 Hugo 的数据模板直接将 SVG 嵌入到 HTML 中实现的——这使得 MemE 不会去加载图标库中大量你所不需要的图标，节约了很多资源。当然，这也意味着你可以方便地自定义属于自己的图标。&lt;/p>
+&lt;p>极简并不等于简陋，MemE 主题具有许多强大的、现代的特性：&lt;/p>
+&lt;ul>
+&lt;li>功能
+&lt;ul>
+&lt;li>完全的深色模式支持&lt;/li>
+&lt;li>完全的多语言支持&lt;/li>
+&lt;li>可自定义的 SVG 图标&lt;/li>
+&lt;li>支持 HTML/CSS/JS 的压缩和 JS 的捆包&lt;/li>
+&lt;li>代码高亮、脚注、Todo 列表、定义列表、Emoji&lt;/li>
+&lt;li>字体排版
+&lt;ul>
+&lt;li>自定义字体、字号、行间距&lt;/li>
+&lt;li>自定义文章内容宽度&lt;/li>
+&lt;li>段首缩排、两端对齐&lt;/li>
+&lt;li>首字下沉、小型大写&lt;/li>
+&lt;li>图片说明、图片脚注&lt;/li>
+&lt;li>着重号&lt;/li>
+&lt;li>中文标点符号字形纠正&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>归档页面、分类页面、标签云页面&lt;/li>
+&lt;li>Atom╱RSS 订阅&lt;/li>
+&lt;li>分节标题锚点&lt;/li>
+&lt;li>图片外链、视频外链&lt;/li>
+&lt;li>自定义页脚&lt;/li>
+&lt;li>404 页面&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>模块
+&lt;ul>
+&lt;li>顶栏&lt;/li>
+&lt;li>菜单栏&lt;/li>
+&lt;li>文章副标题&lt;/li>
+&lt;li>文章描述&lt;/li>
+&lt;li>文章元信息&lt;/li>
+&lt;li>文章目录&lt;/li>
+&lt;li>文章版权&lt;/li>
+&lt;li>文章更新徽章&lt;/li>
+&lt;li>文章的 Git 版本信息&lt;/li>
+&lt;li>文章分享&lt;/li>
+&lt;li>相关文章&lt;/li>
+&lt;li>文章的标签&lt;/li>
+&lt;li>文章上下篇&lt;/li>
+&lt;li>极简页脚、关于页面的极简页脚&lt;/li>
+&lt;li>返回顶部按钮&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>其它
+&lt;ul>
+&lt;li>PWA 和 Service Worker 的更新通知&lt;/li>
+&lt;li>Google Analytics、Google Site Verification、Google AdSense&lt;/li>
+&lt;li>&lt;a href="https://busuanzi.ibruce.info/">不蒜子&lt;/a>页面浏览量和站点访客数、站点访问量&lt;/li>
+&lt;li>Disqus 评论、&lt;a href="https://valine.js.org/">Valine&lt;/a> 评论、&lt;a href="https://utteranc.es/">Utterances&lt;/a> 评论&lt;/li>
+&lt;li>KaTeX 和 MathJax 3.0 公式支持（包括化学方程式）&lt;/li>
+&lt;li>SEO 和社交网络相关：Sitemap、JSON-LD、Open Graph、Twitter Cards&lt;/li>
+&lt;li>支持部署在星际文件系统（IPFS）&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>以上的这些特性的实现离不开强大的 Hugo，而得益于 Hugo 的优越性，你无需安装第三方的插件就能体验到以上所有特性。事实上，你只需下载一个二进制可执行文件（Hugo）和一个源码包（MemE）就可以了，下面就来讲讲安装。&lt;/p>
+&lt;h2 id="安装">安装&lt;/h2>
+&lt;p>对于不同的操作系统，安装过程可能会有所不同，以下给出的都是 Arch Linux 下的安装过程。如果你使用的是 Ubuntu 或 macOS 或 Windows，请自行查看 &lt;a href="https://gohugo.io/getting-started/installing/">Hugo 官方文档&lt;/a>或 Google 相关教程。此外，由于国内网络环境较差，请你务必具备..科学上网..的能力。&lt;/p>
+&lt;h3 id="hugo">Hugo&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">~ $ sudo pacman -S hugo
+~ $ hugo new site blog
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>特别注意：请安装..扩展版..（&lt;code>extended&lt;/code>）的 Hugo，可以通过 &lt;code>hugo version&lt;/code> 命令检查。&lt;/p>
+&lt;h3 id="meme">MemE&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">~ $ &lt;span class="nb">cd&lt;/span> blog
+~/blog $ git init
+~/blog $ git submodule add --depth &lt;span class="m">1&lt;/span> https://github.com/reuixiy/hugo-theme-meme.git themes/meme
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>特别注意：请用 &lt;a href="https://git-scm.com/downloads">Git&lt;/a> 的这种方式安装 MemE，有利于主题的更新，以及持续集成部署。&lt;/p>
+&lt;h3 id="更新提示">更新提示&lt;/h3>
+&lt;p>如何将 MemE 更新到最新版本？&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">~/blog $ git submodule update --rebase --remote
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>请在 GitHub 上关注（Watch）Hugo 和 MemE，如此你就能通过邮件及时获取到最新版本的通知。当然，你也可以通过查看 &lt;a href="https://github.com/gohugoio/hugo/releases">Releases&lt;/a> 页面以获取相关的更新说明。此外，如果有任何问题，可以前往 &lt;a href="https://github.com/reuixiy/hugo-theme-meme/issues">Issues&lt;/a> 页面提问（New issue）。&lt;/p>
+&lt;p>&lt;img src="https://suncook.men/images/watch-hugo.png" alt="watch-hugo.png" title="关注 Hugo 的版本发布">&lt;/p>
+&lt;h2 id="开始">开始&lt;/h2>
+&lt;p>安装完 Hugo 和 MemE 后，再进行以下两步操作——替换 &lt;code>config.toml&lt;/code> 和新建文章，以为博客的起飞做准备😺～&lt;/p>
+&lt;p>1️⃣ 替换 &lt;code>config.toml&lt;/code>&lt;/p>
+&lt;p>对于简体中文用户，你可以通过文件浏览器打开站点文件夹，然后将 Hugo 默认生成的 &lt;code>config.toml&lt;/code> 删除，再进入 &lt;code>themes/meme/config-examples/zh-cn/&lt;/code> 目录，将 MemE 提供的 &lt;code>config.toml&lt;/code> ..复制..到站点根目录下。当然，你也可以直接通过终端：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">~/blog $ rm config.toml &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> cp themes/meme/config-examples/zh-cn/config.toml config.toml
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>2️⃣ 新建文章&lt;/p>
+&lt;p>由于 Hugo 并不会提供默认的示例文章，所以如果你想在安装和配置完后立即体验 MemE 的话，还需新建一篇文章和一个关于页面：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">~/blog $ hugo new &lt;span class="s2">&amp;#34;posts/hello-world.md&amp;#34;&lt;/span>
+~/blog $ hugo new &lt;span class="s2">&amp;#34;about/_index.md&amp;#34;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>3️⃣ 现在：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">~/blog $ hugo server -D
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>不到 100 ms 后，打开 &lt;a href="http://localhost:1313/">http://localhost:1313/&lt;/a>，恭喜你！你已经成功在本地搭建好博客了🎉🎉🍻！尽情享受 MemE 的简约和 Hugo 的飞速吧🚀！&lt;/p>
+&lt;h2 id="配置">配置&lt;/h2>
+&lt;p>在 Hugo 中，配置是通过修改站点根目录下的 &lt;code>config.toml&lt;/code> 这个配置文件来实现的。MemE 为主题所支持的每种语言的用户都提供了一份相应的示例配置，里面都有非常详细的注释说明🐼，请先花点时间查看示例配置。&lt;/p>
+&lt;p>示例配置中的「站点配置」中的绝大多数都是 Hugo 的配置，如果你对它们有疑问，请查看 &lt;a href="https://gohugo.io/getting-started/configuration/">Hugo 官方文档&lt;/a>。此外，如果你对 &lt;code>.toml&lt;/code> 格式的语法有疑问，请查看 &lt;a href="https://github.com/toml-lang/toml">TOML 细则&lt;/a>。&lt;/p>
+&lt;p>需要注意的是，MemE 的示例配置是会随着 MemE 的更新而更新的，而有一些变动可能会让旧的示例配置无法工作。因此，在你更新主题前，请先查看示例配置的&lt;a href="https://github.com/reuixiy/hugo-theme-meme/commits/master/config-examples/zh-cn/config.toml">改动历史&lt;/a>，并将改动手动同步到你的 &lt;code>config.toml&lt;/code> 文件中。当然，如果有这样的改动，我也会在 MemE 的&lt;a href="https://github.com/reuixiy/hugo-theme-meme/releases">版本发布&lt;/a>中说明，你可以在 GitHub 上关注 MemE 以及时获取通知。&lt;/p>
+&lt;h3 id="品牌栏">品牌栏&lt;/h3>
+&lt;p>如果你想使用 SVG 作为你的博客的品牌栏，那么你首先需要将你的 SVG 文件&lt;a href="https://jakearchibald.github.io/svgomg/">压缩&lt;/a>一下，然后用代码编辑器打开，添加一个名为 &lt;code>brand&lt;/code> 的 &lt;code>class&lt;/code>，比如：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code class="language-diff" data-lang="diff">&lt;span class="gd">- &amp;lt;svg xmlns=&amp;#34;http://www.w3.org/2000/svg&amp;#34;&amp;gt;
+&lt;/span>&lt;span class="gd">&lt;/span>&lt;span class="gi">+ &amp;lt;svg xmlns=&amp;#34;http://www.w3.org/2000/svg&amp;#34; class=&amp;#34;brand&amp;#34;&amp;gt;
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>接下来，在站点的 &lt;code>data&lt;/code> 文件夹内新建一个 &lt;code>SVG.toml&lt;/code> 文件，并添加一行：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="nx">brand&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s1">&amp;#39;&amp;#39;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>最后，将你的 SVG 粘贴进 &lt;code>''&lt;/code> 内。&lt;/p>
+&lt;h3 id="图标">图标&lt;/h3>
+&lt;p>MemE 自带了 25+ 个 &lt;a href="https://fontawesome.com/">Font Awesome&lt;/a> 图标，你可以在 &lt;code>themes/meme/data/SVG.toml&lt;/code> 文件中找到它们，但请不要编辑这个文件。如果你想要添加图标，可浏览 Font Awesome 的&lt;a href="https://fontawesome.com/icons?d=gallery&amp;amp;m=free">免费图标列表&lt;/a>，然后去 &lt;a href="https://github.com/FortAwesome/Font-Awesome/tree/master/svgs">GitHub&lt;/a> 上找到并点击 Raw 以直接复制相应的 SVG 代码。接下来的操作与&lt;a href="https://suncook.men/tech/documentation-of-hugo-theme-meme/#%E5%93%81%E7%89%8C%E6%A0%8F">品牌栏&lt;/a>的类似，只不过你添加的 &lt;code>class&lt;/code> 名应为 &lt;code>icon&lt;/code>。&lt;/p>
+&lt;h3 id="归档页面">归档页面&lt;/h3>
+&lt;p>如果你有多个文章分区，你可能就需要一个归档页面，怎么配置呢？&lt;/p>
+&lt;p>首先，在站点的 &lt;code>content&lt;/code> 文件夹下新建一个名为 &lt;code>archives&lt;/code> 的文件夹，并在该文件夹下新建一个 &lt;code>_index.md&lt;/code> 文件，里面加上：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code class="language-t" data-lang="t">&lt;span class="o">+++&lt;/span>
+&lt;span class="n">title&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s">&amp;#34;归档&amp;#34;&lt;/span>
+&lt;span class="o">+++&lt;/span>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>然后，添加一个入口，比如在菜单栏中，往 &lt;code>config.toml&lt;/code> 中加入：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="p">[[&lt;/span>&lt;span class="nx">menu&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">main&lt;/span>&lt;span class="p">]]&lt;/span>
+&lt;span class="nx">url&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;/archives/&amp;#34;&lt;/span>
+&lt;span class="nx">name&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;归档&amp;#34;&lt;/span>
+&lt;span class="nx">weight&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mi">2&lt;/span>
+&lt;span class="nx">pre&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;internal&amp;#34;&lt;/span>
+&lt;span class="nx">post&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;archive&amp;#34;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>其中，&lt;code>weight&lt;/code> 可自行修改一下。&lt;/p>
+&lt;h3 id="代码高亮的样式">代码高亮的样式&lt;/h3>
+&lt;p>如果你不喜欢 MemE 默认的代码高亮的样式，可以前往&lt;a href="https://xyproto.github.io/splash/docs/longer/all.html">这个列表&lt;/a>找一个你喜欢的，然后：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">~/blog $ hugo gen chromastyles --style&lt;span class="o">=&lt;/span>monokai &amp;gt; _light.scss
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>其中，将 &lt;code>monokai&lt;/code> 替换为你选择的样式的名字。最后，将生成的 &lt;code>_light.scss&lt;/code> 文件移动到 &lt;code>~/blog/assets/scss/themes/highlight/&lt;/code> 目录下。&lt;/p>
+&lt;p>当然，这样自定义的是浅色模式的代码高亮样式，如果你想自定义深色模式的，则将 &lt;code>light&lt;/code> 修改为 &lt;code>dark&lt;/code>，并将生成的文件内的 &lt;code>.chroma&lt;/code> 全部替换为 &lt;code>.chroma-dark&lt;/code>。&lt;/p>
+&lt;h3 id="多语言站点">多语言站点&lt;/h3>
+&lt;p>在 Hugo 中，可以方便地实现多语言站点，在 MemE 中，你甚至可以为站点的不同语言配置不同的样式。你可以在&lt;a href="https://github.com/reuixiy/io-oi.me/blob/master/config.toml">本博客的配置文件&lt;/a>的底部找到相关代码。&lt;/p>
+&lt;h2 id="组件">组件&lt;/h2>
+&lt;p>在强大的 Hugo 中有一个叫&lt;a href="https://gohugo.io/hugo-modules/theme-components/">主题组件&lt;/a>的东西，说白了就是你可以同时使用多个主题。你可以使用这个功能添加一些别人写好的&lt;a href="https://gohugo.io/content-management/shortcodes/">短代码&lt;/a>（类似 Hexo 中的标签插件），比如：如果你喜欢 NexT 中的 &lt;a href="https://theme-next.org/docs/tag-plugins/note">Note 标签&lt;/a>并想将它迁移到 MemE，可以直接通过 &lt;a href="https://github.com/martignoni/hugo-notice">hugo-notice&lt;/a> 这个主题组件实现。&lt;/p>
+&lt;h2 id="定制">定制&lt;/h2>
+&lt;p>在 MemE 中，你可以方便地自定义样式、模板，但需要注意的是：..千万不要..直接修改 MemE 的文件！这样是非常不利于主题的更新的，如果你想要自定义主题的一些样式、模板，直接在站点下新建相应的文件即可覆盖主题的模板。此外，如果你只是想要自定义自己的样式，推荐直接在站点的 &lt;code>assets/custom/_custom.scss&lt;/code> 文件（没有自建）中添加。&lt;/p>
+&lt;h2 id="支持的-front-matter">支持的 Front Matter&lt;/h2>
+&lt;p>见 &lt;a href="https://github.com/reuixiy/hugo-theme-meme/blob/master/README.zh-cn.md">README.md&lt;/a>。&lt;/p></content><category scheme="https://suncook.men/tech/" term="tech" label="tech"/><category scheme="https://suncook.men/tags/hugo/" term="hugo" label="hugo"/></entry><entry><title type="text">《冰与火之歌》</title><link rel="alternate" type="text/html" href="https://suncook.men/life/a-song-of-ice-and-fire/"/><id>https://suncook.men/life/a-song-of-ice-and-fire/</id><updated>2019-08-20T14:00:19+08:00</updated><published>2018-01-11T18:17:54+08:00</published><author><name>Cook</name><uri>https://suncook.men/</uri><email>emailcook@163.com</email></author><rights>在保留本文作者及本文链接的前提下，非商业用途随意转载分享。</rights><summary type="html">Winter is coming... Winter is here.</summary><content type="html">&lt;p>&lt;img src="https://suncook.men/images/a-song-of-ice-and-fire-title.png" alt="a-song-of-ice-and-fire-title.png" title="Kindle 截图">&lt;/p>
+&lt;p>将近两个月看完《冰与火之歌》五卷：权力的游戏、列王的纷争、冰雪的风暴、群鸦的盛宴、魔龙的狂舞。拼命把溜出来的肠子塞回肚子里，乌鸦啄食着被钉城墙上蛆虫蠕动的头颅，动不动就调情啪啪啪还啊啊啊……&lt;/p>
+&lt;p>眼睁睁看着自认为的主角一个又一个的突然变成了群鸦的盛宴，一个又一个人物的眼睛才看清列王的纷争，一个又一个人物的嘴与心的谎言才看清权力的游戏，而这一个又一个人物却都是自己！冰雪的风暴与魔龙的狂舞却在自己的脑阔中同时上演，自己的脑阔在冰与火之歌中冲突到爆炸！&lt;/p>
+&lt;p>经历过《神曲》地狱到天堂的过去之旅，遨游过「阿西莫夫」那浩瀚无垠的未来宇宙，体会过《浮士德》对理想的渴望，享受过「尼采」那日神阿波罗的至高喜悦和酒神狄俄尼索斯的狂欢，歌唱过 Coldplay 那生命无上，却第一次在《冰与火之歌》谎言的游戏中爆炸！&lt;/p>
+&lt;p>言语如风&lt;br>
+可一阵风&lt;br>
+让你在凛冬中尖叫&lt;br>
+而非寒冷&lt;/p>
+&lt;p>凛冬将至&lt;br>
+可那是谎言&lt;br>
+这不是谎言&lt;br>
+这就是权力的游戏&lt;/p></content><category scheme="https://suncook.men/life/" term="life" label="life"/><category scheme="https://suncook.men/tags/reading/" term="reading" label="reading"/><category scheme="https://suncook.men/tags/poetry/" term="poetry" label="poetry"/></entry></feed>
