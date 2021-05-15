@@ -25,7 +25,7 @@ pluralizeListTitles = false
 summaryLength = 42
 
 # 是否开启 GitHub 风格的 Emoji 书写方式
-enableEmoji = true
+enableEmoji = false
 
 # 脚注的返回链接中的文本
 footnoteReturnLinkContents = "↩"
@@ -299,6 +299,10 @@ uglyURLs = false
     # 是否开启
     enableHeader = true
 
+    # 是否自动隐藏
+    enableHeaderAutoHide = false
+    # 说明：仅对弹性布局的顶栏有效
+
     # 是否在首页显示
     displayHeaderInHome = true
     # 说明：对弹性布局的顶栏无效
@@ -509,6 +513,9 @@ uglyURLs = false
     # 是否显示每一类别项下的文章数
     displayTaxonomyTermCount = true
 
+ # 设置一个非负数来限制每一类别项下展示的文章数
+    limitEntriesLimit = -1
+
 
     ######################################
     # 文章分区范围
@@ -558,6 +565,7 @@ uglyURLs = false
     #      模式修改为它，即使你隐藏开关，你的读
     #      者依然可能以浅色模式模式阅读你的博客。
 
+    overrideSystemPreferences = false
 
     ######################################
     # 网页应用
@@ -577,7 +585,7 @@ uglyURLs = false
     #      （图标的路径）。
 
     themeColor = "#fff"
-    themeColorDark = "#1c1c21"
+    themeColorDark = "#16171d"
     safariMaskColor = "#2a6df4"
     msApplicationTileColor = "#fff"
 
@@ -629,6 +637,19 @@ uglyURLs = false
 
     # 是否禁用 MathJax 的右键菜单
     disableMathJaxMenu = false
+
+
+ ######################################
+    # Mermaid (https://github.com/mermaid-js/mermaid)
+
+    # 是否开启（全局设置）
+    enableMermaid = false
+    # 说明：文章的 Front Matter 中的 `mermaid`
+    #      的优先级高于此处
+
+    mermaidTheme = 'default'
+    mermaidThemeDark = 'dark'
+
 
 
     ######################################
@@ -845,7 +866,7 @@ uglyURLs = false
     #      默认值：§
 
     # 锚点图标
-    anchorIcon = "link"
+    anchorIcon = ""
     # 说明：留空（""）则回退到锚点符号
 
     # 是否开启锚点链接
